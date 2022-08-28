@@ -84,9 +84,9 @@ def clear():
 def back():
 	login()
 
-ahsan="Mr-"
+ahsan="ASB-"
 imt="-2.0=="
-ak="RAJU7R-"
+ak="ASHIS-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
 	key1 = open('/data/data/com.termux/files/usr/bin/.mrkausar-cov', 'r').read()
@@ -393,6 +393,7 @@ logo = ("""
 \x1b[1;92m |   / _ \  \__ \ | _ \
 \x1b[1;92m |  /_/ \_\ |___/ |___/
  
+
    \x1b[1;92m╔═══════════════════════════╗
    \x1b[1;92m║➣TOOL NAME : { CL.ASB}         ║
    \x1b[1;92m║➣AUTHOR    : ASB ASHIS         ║
