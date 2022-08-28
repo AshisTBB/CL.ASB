@@ -391,15 +391,15 @@ logo = ("""
 \x1b[1;92m |     _     ___   ___ 
 \x1b[1;92m |    /_\   / __| | _ )
 \x1b[1;92m |   / _ \  \__ \ | _ \
-\x1b[1;92m |  /_/ \_\ |___/ |___/|  
+\x1b[1;92m |  /_/ \_\ |___/ |___/
  
    \x1b[1;92m╔═══════════════════════════╗
-   \x1b[1;92m║➣TOOL NAME : { CL.ASB}               ║
-   \x1b[1;92m║➣AUTHOR    : ASB ASHIS               ║
-   \x1b[1;92m║➣WHATSAPP.   : EmPtY                 ║
-   \x1b[1;92m║➣FACEBOOK  : ASB Ashis Biswas       ║
-   \x1b[1;92m║➣Group    :  Team Black Berry          ║
-   \x1b[1;92m║➣Page :  Team Black Berry              ║
+   \x1b[1;92m║➣TOOL NAME : { CL.ASB}         ║
+   \x1b[1;92m║➣AUTHOR    : ASB ASHIS         ║
+   \x1b[1;92m║➣WHATSAPP.   : EmPtY           ║
+   \x1b[1;92m║➣FACEBOOK  : ASB Ashis Biswas  ║
+   \x1b[1;92m║➣Group    :  Team Black Berry  ║
+   \x1b[1;92m║➣Page :  Team Black Berry      ║
    \x1b[1;92m╚═══════════════════════════╝""")
 
 class Main:
